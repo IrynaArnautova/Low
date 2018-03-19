@@ -1,0 +1,651 @@
+.container{
+  max-width: 1030px;
+}
+
+body{
+  background-image: url(../image/background.png);
+  background-size: cover;
+}
+
+nav{
+  height: 74px;
+  margin-top: 30px;
+}
+
+.nav-link{
+  color: #c69c6d!important;
+  height: 74px;
+  padding-top: 25px;
+}
+
+ nav li:hover {
+  background-color: #8A5F9E;
+}
+
+.bg-light {
+  background-color: rgba(109, 61, 181, 0.7)!important;
+  -webkit-box-shadow: 0px 0px 0px 6px rgba(86,71,171,0.53);
+  -moz-box-shadow: 0px 0px 0px 6px rgba(86,71,171,0.53);
+  box-shadow: 0px 0px 0px 6px rgba(86,71,171,0.53);
+  }
+
+.logo-img>a {
+  position: absolute;
+  left: 50%;
+    margin-left: -100px;
+    top: -52px;
+}
+
+nav .navbar-brand {
+  position: absolute;
+  left: 50%;
+    margin-left: -100px;
+    top: -52px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.first-section {
+  border-bottom: 11px solid rgba(141, 110, 80, 0.8);
+  padding-bottom: 40px;
+}
+
+.section-title {
+  margin-top: 120px;
+}
+
+.persefona-text h3 {
+  font-family: Montserrat;
+  color: #fff ;
+  font-size: 55.86px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: left;
+  width: 100%;
+}
+
+.persefona-text p {
+  font-family: Montserrat;
+  color: #fff ;
+  font-size: 16px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  text-align: justify;
+  margin: 30px 15px 0;
+}
+
+.v-line {
+  border-left: 1px solid #c69c6d;
+}
+
+.persefona-text .btn-primary {
+  background-color: #7042B8;
+  border-color: #7042B8;
+}
+
+.persefona-text .btn {
+  margin: 40px 0 0 15px;
+  border-radius: 0;
+  padding: 10px 0;
+  height: 69px;
+  width: 444px;
+  max-width: 100%;
+  color:  #ffffff;
+  font-size: 15.07px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+}
+
+.persefona-text .btn::after {
+  content: ''; 
+  position: absolute; /* Абсолютное позиционирование */
+  right: -74px;  
+  top: -2px;
+  border: 35px solid transparent;
+  border-left: 38px solid #7042B8;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  max-width: 100%;
+}
+
+.persefona-text .btn:hover {
+  border-color: #5A2FB0;  
+  background-color: #5A2FB0;
+}
+
+.persefona-text .btn:hover:after {
+  border-color: #5A2FB0;
+  border: 35px solid transparent;
+  border-left: 38px solid #5A2FB0;
+}
+
+.persefona-img img{
+  margin-top: 95px;
+  padding-left: 48px;
+  position: absolute;
+  z-index: -1;
+}
+
+.second-section {
+  background-image: url(../image/background-second-section.png) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-top: 21px solid rgba(196, 155, 107, 0.8);
+  background-size: cover;
+}
+
+.background-content {
+  background-color: rgba(105, 56, 180, 0.5);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.background-content h1 {
+  font-family: Montserrat;
+  color:  #ffffff;
+  font-size: 55.86px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  text-align: right;
+  padding: 10px 0 0;
+  max-width: 100%;
+}
+
+.background-content h2 {
+  font-family: Montserrat;
+  color:  #ffffff;
+  font-size: 25.36px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  text-align: right;
+  margin-top: -13px;
+  max-width: 100%;
+}
+
+.background-content .btn-primary {
+  background-color: #7042B8;
+  border-color: #7042B8;
+}
+
+.background-content .btn {
+  margin: 20px 0 0;
+  border-radius: 0;
+  padding: 10px 0;
+  height: 69px;
+  width: 293px;
+  max-width: 100%;
+  font-family: Montserrat;
+  color:  #ffffff;
+  font-size: 30.07px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+}
+
+.note-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 200px;
+}
+
+.background-content .btn::before {
+  content: ''; 
+  position: absolute; /* Абсолютное позиционирование */
+  left: -74px;  
+  top: -2px;
+  border: 35px solid transparent;
+  border-right: 38px solid #7042B8;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.background-content .btn:hover {
+  border-color: #5A2FB0;  
+  background-color: #5A2FB0;
+}
+
+.background-content .btn:hover:before {
+  border-color: #5A2FB0;
+  border: 35px solid transparent;
+  border-right: 38px solid #5A2FB0;
+}
+
+.our-service {
+  list-style: none;
+  font-family: Montserrat;
+  color:  #ffffff;
+  font-size: 16px;/* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  padding-top: 26px;
+}
+
+.under-btn{
+  font-family: Montserrat;
+  color:  #594aaf;
+  font-size: 17px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  text-align: right;
+  padding: 10px 11px 0 0;
+}
+
+.third-section {
+  margin: 30px 0 30px;
+}
+
+.third-section .card-group{
+  margin-top: -42px;
+  justify-content: space-between;
+}
+
+.third-section-h1 h1 {
+  font-family: Montserrat;
+  color:  #ffffff;
+  font-size: 55.86px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  text-align: left;
+}
+
+.card-img {
+  height: 238px;
+  position: relative;
+}
+
+.icon-1 .card-img-top {
+  bottom: -25px;
+}
+
+.card-img-top {  
+  max-width: 136px; 
+  position: absolute; 
+  left: 50%;
+  margin-left: -68px;
+  bottom: 6px;
+}
+
+.card-body {
+  background-color: #5748AE;
+}
+
+.card-body .card-title {
+  font-family: Montserrat;
+  color:  #ffffff;
+  font-size: 16px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  text-align: center;
+}
+
+.card-group .card {
+  background: none;
+  max-width: 24%;
+}
+
+.forth-section{
+  background-image: url(../image/back-references.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.forth-section h1 {
+  font-family: Montserrat;
+  color:  #c69c6d;
+  text-shadow: -5px -2px 2px #594aaf;
+  font-size: 55.86px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  text-align: right;
+  padding: 40px 0;
+}
+
+.references-1 {
+  position: relative;
+  width: 50%;
+  margin: 5px auto;
+}
+
+.references {
+  background-color: rgba(87, 71, 175, 0.5);
+  max-width: 100%;
+  min-height: 153px;
+  padding-left: 110px;
+  -webkit-transform: skew(-20deg);
+     -moz-transform: skew(-20deg);
+       -o-transform: skew(-20deg);
+  }
+
+  .references-2-2 {
+    background-color: rgba(87, 71, 175, 0.5);
+    max-width: 100%;
+    min-height: 153px;
+    padding-right: 100px;
+    -webkit-transform: skew(20deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+  }
+
+  .references-client-1, .references-text-1 {
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    -webkit-transform: skew(20deg);
+     -moz-transform: skew(20deg);
+       -o-transform: skew(20deg);
+  }
+
+  .references-client-2, .references-text-2 {
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: right;
+    -webkit-transform: skew(-20deg);
+     -moz-transform: skew(-20deg);
+       -o-transform: skew(-20deg);
+  }
+
+  .references-client-1 {
+    padding-bottom: 22px;
+  }
+
+   .references-client-2 {
+    padding-bottom: 22px;
+  }
+
+  .references-text-1 {
+    padding-left: 19px;
+  }
+
+  .references-text-2 {
+    padding-right: 19px;
+  }
+
+  .img-person {
+    width: 186px;
+    border: 10px solid #9B8BB1;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: -90px;
+    top: -17px;
+  }
+
+  .img-person-2 {
+    width: 186px;
+    border: 10px solid #9B8BB1;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    right: -90px;
+    top: -17px;
+  }
+
+  .add-more a{
+    font-family: Montserrat;
+    color:  #594aaf;
+    font-size: 28.91px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+  }
+
+  .add-more {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .contacts-title h1 {
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 56px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    padding: 20px 0;
+  }
+
+  .sixth-section {
+    background-image: url(../image/map.png);
+    position: relative;
+  }
+
+  .sixth-section form {
+    background-color: #fff;
+    width: 390px;
+    height: 340px;
+    position: absolute;
+    top: -80px;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(86,71,171,1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(86,71,171,1);
+    box-shadow: 10px 10px 0px 0px rgba(86,71,171,1);
+  }
+
+  .sixth-section h1{
+    font-family: Montserrat;
+    color:  #594aaf;
+    font-size: 29px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: right;
+    padding: 20px 30px 40px 0;
+  }
+
+  .form-control {
+    width: 239px;
+    margin: 0 auto;
+    background-color: #E4E4E4;
+    font-family: Montserrat;
+    color:  #666666;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    border-radius: 0;
+  }
+
+  .contacts {
+    background: rgba(202, 164, 120, 0.8);
+    width: 261px;
+    margin-top: 280px;
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    padding: 10px 0 2px 22px;
+    margin-bottom: 40px;
+  }
+
+  form .btn-primary {
+    border-color: #5A2FB0;  
+    background-color: #5A2FB0;
+    width: 239px;
+    margin-left: 75px;
+  }
+
+  form .btn {
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    text-align: center;
+    border-radius: 0;
+  }
+
+  .logo-footer {
+    display: inline-flex; 
+    padding: 30px 0;
+  }
+
+  .logo-footer img {
+    width: 101px;
+  }
+
+  .logo-footer h1{
+    font-family: Montserrat;
+    color:  #c69c6d;
+    font-size: 28px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    text-align: left;
+    margin: auto 25px;
+  }
+
+  .contacts-footer {
+    display: inline-flex;
+    width: 311px;
+    height: 48px;
+    justify-content: center;
+    margin-top: 30px;;
+  }
+
+  .my-number {
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 21px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    text-align: center;
+    border: 1px solid #997464;
+    line-height: 48px;
+    padding: 0 20px;
+  }
+
+  .callback {
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 11px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: center;
+    background-color: #997464;
+    margin: auto 0;
+    padding: 8px;
+  }
+
+  .mail-footer {
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: right;
+    margin-top: -78px;
+    padding-right: 90px;
+  }
+
+  .contacts-header {
+    display: inline-flex;
+    width: 311px;
+    height: 48px;
+    justify-content: center;
+    margin-top: 15px;;
+  }
+
+  .my-number-header {
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 21px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    text-align: center;
+    border: 1px solid #997464;
+    line-height: 48px;
+    padding: 0 20px;
+  }
+
+  .callback-header {
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 11px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: center;
+    background-color: #997464;
+    margin: auto 0;
+    padding: 8px;
+  }
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+  .logo-img>a {
+    display: none;
+  }
+
+  .card-group {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .card-group .card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .persefona-img {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 771px) {
+  .persefona-img {
+    display: none;
+  }
+
+  .sixth-section form {
+    position: initial;
+    margin-top: 40px;
+    margin: 40px auto 0;
+  }
+
+  .contacts {
+    margin: 50px auto 40px;
+  }
+
+  .references-1 {
+    width: 100%;
+  }
+
+  .img-person, .img-person-2 {
+    position: initial;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .references, .references-2-2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px 5%;
+  }
+
+  .mail-footer  {
+    margin: 0;
+  }
+  .contacts-footer, .contacts-header {
+    width: auto;
+  }
+
+  .logo-footer {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .persefona-text h3 {
+    font-size: 36px;
+  }
+
+  .persefona-text {
+    text-align: center;
+  }
+
+  .persefona-text .btn::after {
+    display: none;
+  }
+
+  .persefona-text .btn {
+    margin: 40px 0 0;
+  }
+
+  .third-section-h1 h1 {
+    font-size: 30px;
+  }
+
+
+}
+
